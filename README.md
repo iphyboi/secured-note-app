@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+A full stack, secure note-taking application that allows users to create, edt, and delete notes with authentication and access control.
 
-## Getting Started
+        Live Demo
 
-First, run the development server:
+https://secured-note-app-three.vercel.app
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+         Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Next.js
+- MongoDB
+- Mongoose
+- JWT Authentication
+- Tailwind CSS
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+          Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+  - User registration and login (JWT authentication)
+  - Create, read, update, and delete notes (CRUD)
+  - Role-based access control (RBAC)
+  - Ownership protection (users can only manage their own notes)
+  - Secured API routes
 
-## Learn More
+           Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+    - `/app` - Frontend pages (Next.js App Router)
+    - `/api` - Backend API routes
+    -  `/models` - Database models
+    -  `/lib` - Utility functions (DB connection, auth)
+   
+            Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+       ```bash
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+       git clone https://github.com/Iphyboi/secured-note-app.git
 
-## Deploy on Vercel
+       cd secured-note-app
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+       npm install
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+       npm run dev
