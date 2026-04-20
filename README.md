@@ -1,4 +1,6 @@
-A full stack, secure note-taking application that allows users to create, edt, and delete notes with authentication and access control.
+     Secured Note App
+
+A full stack, secure note-taking application that allows users to create, edit, and delete notes with authentication and access control.
 
         Live Demo
 
